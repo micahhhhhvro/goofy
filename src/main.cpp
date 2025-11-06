@@ -7,6 +7,8 @@ Reason: For fun
 Hours: 2 hours
 */
 
+const int TOTAL = 20;
+
 int main () {
 
 
@@ -14,5 +16,5 @@ int main () {
 
 
 
-
+return TOTAL;
 }
