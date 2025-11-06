@@ -6,15 +6,24 @@ Sem: F25
 Reason: For fun
 Hours: 2 hours
 */
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <ctime>
 
-const int TOTAL = 20;
+using namespace std;
 
-int main () {
+int main () 
+{
+    int array[6];
+    int add;
+
+    for (int i = 0; i < 6; ++i) 
+    {
+        array[i] = i + 1;
+        add = add + array[i];
+    }
 
 
-
-
-
-
-return TOTAL;
+return add;
 }
